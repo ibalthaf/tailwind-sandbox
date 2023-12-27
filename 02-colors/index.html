@@ -1,32 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Colors</title>
-  </head>
-  <body>
-    <!-- Default colors -->
-    <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Colors</title>
+	</head>
+	<body>
+		<!-- Default colors -->
+		<!-- white, black, red, green, blue, orange, yellow, purple, lime, 
+      emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, 
+      gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Text Colors -->
+		<!-- Text Colors -->
+		<p class="text-black">Tailwind is awesome</p>
+		<p class="text-white">Tailwind is awesome</p>
+		<p class="text-red-500">Tailwind is awesome</p>
+		<p class="text-green-500">Tailwind is awesome</p>
+		<p class="text-emerald-500">Tailwind is awesome</p>
+		<p class="text-zinc-300">Tailwind is awesome</p>
+		<p class="text-slate-800">Tailwind is awesome</p>
 
-    <!-- Background Colors -->
+		<!-- Background Colors -->
+		<p class="bg-slate-800 text-yellow-200">Tailwind is awesome</p>
+		<p class="bg-emerald-400">Tailwind is awesome</p>
+		<p class="bg-yellow-300">Tailwind is awesome</p>
+		<p class="bg-indigo-800 text-white">Tailwind is awesome</p>
 
-    <!-- Text Underline -->
+		<!-- Text Underline -->
+		<p class="underline decoration-red-500">Tailwind is awesome</p>
+		<p class="underline decoration-emerald-600">Tailwind is awesome</p>
+		<p class="underline decoration-yellow-200">Tailwind is awesome</p>
 
-    <!-- Border Colors -->
+		<!-- Border Colors -->
+		<input type="text" class="border border-red-400" />
+		<input type="text" class="border border-green-400" />
+		<input type="text" class="border border-orange-400" />
 
-    <!-- Divide Colors -->
+		<!-- Divide Colors -->
+		<div class="divide-y divide-blue-300">
+			<div>Item 1</div>
+			<div>Item 2</div>
+			<div>Item 3</div>
+			<div>Item 4</div>
+			<div>Item 5</div>
+		</div>
 
-    <!-- Outline Colors -->
+		<!-- Outline Colors -->
+		<button class="outline mr-4 outline-red-500">Click</button>
+		<button class="outline mr-4 outline-blue-300">Click</button>
+		<button class="outline mr-4 outline-green-500">Click</button>
 
-    <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+		<!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+		<button class="shadow-lg bg-cyan-500 shadow-cyan-500">Subscribe</button>
+		<button class="shadow-lg bg-cyan-500 shadow-purple-500/50">Subscribe</button>
+		<button class="shadow-lg bg-cyan-500 shadow-slate-500/50">Subscribe</button>
 
-    <!-- Accent Colors -->
+		<!-- Accent Colors -->
+		<input type="checkbox" class="accent-purple-500" checked />
+		<input type="checkbox" class="accent-cyan-500" checked />
 
-    <!-- Arbitrary Colors -->
-  </body>
+		<!-- Arbitrary Colors -->
+		<div class="bg-[#427fab]">Helloww</div>
+		<div class="bg-[rgb(255,0,0)]">Helloww</div>
+		<div class="bg-[steelblue]">Helloww</div>
+	</body>
 </html>
